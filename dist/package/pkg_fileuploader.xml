@@ -2,7 +2,7 @@
 <extension type="package" version="6.0" method="upgrade">
   <name>pkg_fileuploader</name>
   <packagename>fileuploader</packagename>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <creationDate>2026-07-01</creationDate>
   <author>Darko Fatur</author>
   <authorEmail>info@topoweryou.com</authorEmail>
@@ -15,6 +15,6 @@
     <file type="component" id="com_fileuploader">com_fileuploader</file>
   </files>
   <updateservers>
-    <server type="extension" priority="1" name="File Uploader Update">https://example.com/updates/fileuploader.xml</server>
+    <server type="extension" priority="1" name="File Uploader Update">https://topoweryou.com/updates/fileuploader.xml</server>
   </updateservers>
 </extension>

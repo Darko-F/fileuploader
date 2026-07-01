@@ -2,7 +2,9 @@
 
 defined('_JEXEC') or die;
 
+use Joomla\CMS\Language\Text;
 use Joomla\CMS\MVC\Controller\BaseController;
+use Joomla\CMS\Session\Session;
 
 class FileuploaderController extends BaseController
 {
@@ -21,6 +23,12 @@ class FileuploaderController extends BaseController
 
     public function upload()
     {
+        if (!Session::checkToken()) {
+            $this->setRedirect('index.php?option=com_fileuploader', Text::_('JINVALID_TOKEN'), 'error');
+
+            return $this;
+        }
+
         $model = $this->getModel('Upload', 'FileuploaderModel');
         $result = $model->upload();
 
