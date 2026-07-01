@@ -14,6 +14,15 @@ This repository contains a Joomla 6-compatible extension package for uploading f
 - dist/updates/ contains the Joomla update XML definition.
 - The package ZIP is generated locally when needed and is not stored in the repository.
 
+## Build the package ZIP locally
+Run:
+
+```bash
+python3 build_package.py
+```
+
+This creates dist/pkg_fileuploader.zip locally. The archive is ignored by Git and will not be pushed to GitHub.
+
 ## Install in Joomla
 1. Go to Joomla Administrator.
 2. Open System > Install > Extensions.
