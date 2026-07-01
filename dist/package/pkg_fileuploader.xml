@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" version="6.0" method="upgrade">
+  <name>pkg_fileuploader</name>
+  <packagename>fileuploader</packagename>
+  <version>1.0.0</version>
+  <creationDate>2026-07-01</creationDate>
+  <author>Darko</author>
+  <authorEmail>you@example.com</authorEmail>
+  <authorUrl>https://example.com</authorUrl>
+  <packager>Darko</packager>
+  <packagerurl>https://example.com</packagerurl>
+  <description>Package for the File Uploader Joomla 6 component.</description>
+  <scriptfile>script.php</scriptfile>
+  <files>
+    <file type="component" id="com_fileuploader">com_fileuploader</file>
+  </files>
+  <updateservers>
+    <server type="extension" priority="1" name="File Uploader Update">https://example.com/updates/fileuploader.xml</server>
+  </updateservers>
+</extension>

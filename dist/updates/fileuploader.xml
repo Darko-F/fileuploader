@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>File Uploader</name>
+    <element>pkg_fileuploader</element>
+    <type>package</type>
+    <version>1.0.0</version>
+    <infourl title="File Uploader">https://example.com/updates/fileuploader.xml</infourl>
+    <downloads>
+      <downloadurl type="full" format="zip">https://example.com/releases/pkg_fileuploader_1.0.0.zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="6.[0-9]*" />
+  </update>
+</updates>

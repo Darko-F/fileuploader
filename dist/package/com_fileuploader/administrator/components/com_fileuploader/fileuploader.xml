@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="6.0" method="upgrade">
+  <name>com_fileuploader</name>
+  <author>Darko</author>
+  <creationDate>2026-07-01</creationDate>
+  <copyright>2026</copyright>
+  <license>MIT</license>
+  <version>1.0.0</version>
+  <description>COM_FILEUPLOADER_XML_DESCRIPTION</description>
+  <administration>
+    <menu>File Uploader</menu>
+    <files folder="administrator">
+      <filename>access.xml</filename>
+      <filename>config.xml</filename>
+      <filename>controller.php</filename>
+      <filename>fileuploader.php</filename>
+      <filename>script.php</filename>
+      <folder>models</folder>
+      <folder>views</folder>
+    </files>
+  </administration>
+</extension>
