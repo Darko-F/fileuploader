@@ -12,14 +12,15 @@ This repository contains a Joomla 6-compatible extension package for uploading f
 ## Project structure
 - dist/package/ contains the installable package manifest and component files.
 - dist/updates/ contains the Joomla update XML definition.
-- dist/pkg_fileuploader.zip is the packaged extension ready to upload in Joomla.
+- The package ZIP is generated locally when needed and is not stored in the repository.
 
 ## Install in Joomla
 1. Go to Joomla Administrator.
 2. Open System > Install > Extensions.
-3. Upload the package file dist/pkg_fileuploader.zip.
-4. Install it.
-5. Open Components > File Uploader to use the component.
+3. Build the package ZIP locally from the contents of dist/package.
+4. Upload the generated package file.
+5. Install it.
+6. Open Components > File Uploader to use the component.
 
 ## Default upload target
 The default target directory is:
@@ -32,4 +33,4 @@ Joomla can use dist/updates/fileuploader.xml as an update source once your real 
 
 ## Notes
 - The component uses the server-side target directory and optional subfolder fields.
-- Replace the example author and update URLs in the package manifest before distributing it publicly.
+- Author metadata is set to Darko Fatur and copyright is set to topoweryou.com in the Joomla package manifests.

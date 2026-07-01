@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="component" version="6.0" method="upgrade">
   <name>com_fileuploader</name>
-  <author>Darko</author>
+  <author>Darko Fatur</author>
   <creationDate>2026-07-01</creationDate>
-  <copyright>2026</copyright>
+  <copyright>topoweryou.com</copyright>
   <license>MIT</license>
   <version>1.0.0</version>
   <description>COM_FILEUPLOADER_XML_DESCRIPTION</description>
